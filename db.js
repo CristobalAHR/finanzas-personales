@@ -24,12 +24,12 @@ import {
 // La config web de Firebase no es secreta: la seguridad está en las reglas de
 // Firestore, que solo permiten a cada uid leer y escribir su propio subárbol.
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_PROYECTO.firebaseapp.com",
-  projectId: "TU_PROYECTO",
-  storageBucket: "TU_PROYECTO.appspot.com",
-  messagingSenderId: "TU_SENDER_ID",
-  appId: "TU_APP_ID",
+  apiKey: "AIzaSyC-WyZze5CDAEnXAcHRQ_TIC6gDpru1GKQ",
+  authDomain: "finanzas-personales-b75db.firebaseapp.com",
+  projectId: "finanzas-personales-b75db",
+  storageBucket: "finanzas-personales-b75db.firebasestorage.app",
+  messagingSenderId: "832984917097",
+  appId: "1:832984917097:web:e5adc43d408f09d16aaef8"
 };
 
 const app = initializeApp(firebaseConfig);
